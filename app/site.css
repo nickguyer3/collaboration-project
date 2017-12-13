@@ -1,9 +1,22 @@
 head {
-    color: blue
+    color: darkgrey;
 }
 body {
-    background: black;
-    color: #fff;
+    background: grey;
+    color: black;
+    font-size: 25px;
+}
+table {
+    width: 100%
+}
+table, th, td {
+    border: 1px sienna;
+    border-collapse: none;
+}
+th, td {
+    border: 1px;
+    padding: 15px;
+    text-align: Center;
 }
 hr { 
     display: block;

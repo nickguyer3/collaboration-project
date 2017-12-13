@@ -1,19 +1,91 @@
-<html>
+<!DOCTYPE html>
     <head>
         <link rel="stylesheet" href="site.css" />
+    <style>
+    table#t01 tr:nth-child(even) {
+    background-color: sienna;
+}
+    table#t01 tr:nth-child(odd) {
+    background-color: seashell;
+}
+    table#t01 th {
+    color: black;
+    background-color: darkgray;
+}
+    </style>
         <title>Homework</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <form>
+            Stage Name:<br>
+            <input type="text" name="firstname"><br>
+            Real Name:<br>
+            <input type="text" name="lastname">
+        </form>
         <br>
-        <p>Hi again!</p>
+        <form>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other<br>
+            <input type="submit">
+        </form>
         <br>
-        <p>In this section we'll discuss the perameters of our homework.</p>
-    <div style="background-color:black;color:white;padding:10px;">
-        <h2>A less important topic than "Hello World".</h2>
-    <div/>
-    <div>
-        <p>This is the part where I inform you of something.</p> <HR> <p>And possible horizontal allign here.</p>
-    </div>
+        <table id="t01">
+            <tr>
+                <th colspan="3">Da Beers</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="C:\Users\ianmo\OneDrive\Documents\collaboration-project\app\Pics\Deschutes-Brewery.jpg" alt="Deschutes Brewery Logo" style="width:125px;height:125px;border:0;">
+                </td>
+                <td>
+                    <a href="https://www.deschutesbrewery.com/beer/">Deschutes Brewery</a>
+                </td>
+                <td>Top Pick</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="C:\Users\ianmo\OneDrive\Documents\collaboration-project\app\Pics\rogue-logo1.gif" alt="Rogue Brewery Logo" style="width:125px;height:125px;border:0;">
+                </td>
+                <td>
+                    <a href="http://www.rogue.com/roguebeers/">Rogue Brewery</a>
+                </td>
+                <td>Second Place</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="C:\Users\ianmo\OneDrive\Documents\collaboration-project\app\Pics\boneyard.jpg" alt="Boneyard Brewery Logo" style="width:125px;height:125px;border:0;">
+                </td>
+                <td>
+                    <a href="http://boneyardbeer.com/beers/">Boneyard Brewery</a>
+                </td>
+                <td>Tied for Second</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="C:\Users\ianmo\OneDrive\Documents\collaboration-project\app\Pics\Cascade-Lakes-Brewing-Co.1.jpg" alt="Cascade Lakes Brewery Logo" style="width:125px;height:125px;border:0;">
+                </td>
+                <td>
+                    <a href="http://cascadelakes.com/our-beers/">Cascade Lakes Brewery</a>
+                </td>
+                <td>Third</td>
+            </tr>
+        </table>
+        <ul>
+            <li>This is my first list</li>
+            <li>I will change it up a bit</li>
+            <li>
+                <ol>
+                    <li>This is hopefully and ordered list</li>
+                    <li>Still checking</li>
+                    <li>
+                        <ul>
+                            <li>Nesting could get confusing</li>
+                            <li>Very confusing</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ul>
     </body>
 </html>
