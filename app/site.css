@@ -1,10 +1,47 @@
 head {
-    color: blue
+    color: darkgrey;
 }
 body {
-    background: black;
-    color: #fff;
+    background: grey;
+    color: black;
+    font-size: 25px;
 }
+table {
+    width: 100%
+}
+table#t01 tr:nth-child(even) {
+    background-color: sienna;
+}
+    table#t01 tr:nth-child(odd) {
+    background-color: seashell;
+}
+    table#t01 th {
+    color: black;
+    background-color: darkgray;
+}
+table img {
+    width:125px;
+    height:125px;
+    border:0;
+}
+table, th, td {
+    border: 1px sienna;
+    border-collapse: none;
+}
+th, td {
+    border: 1px;
+    padding: 15px;
+    text-align: Center;
+}
+/* table#t01.ians-table {
+    border: 4px solid purple;
+}
+#t01 {
+    border: 3px solid blue;
+}
+.ians-table {
+    border: 3px solid red;
+} */
 hr { 
     display: block;
     margin-top: 0.5em;
