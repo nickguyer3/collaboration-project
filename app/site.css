@@ -1,4 +1,20 @@
 body {
-    background: black;
-    color: #fff;
+    /* background: black;
+    color: #fff; */
 }
+
+#beers {  
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#beers td, #beers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#beers tr:nth-child(even){background-color: #f2f2f2;}
+
+#beers tr:hover {background-color: #ddd;}
+
