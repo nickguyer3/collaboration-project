@@ -1,20 +1,99 @@
+head {
+    color: darkgrey;
+}
 body {
-    /* background: black;
-    color: #fff; */
+    background: grey;
+    color: black;
+    font-size: 25px;
+}
+img #mcds {
+    position: absolute;
+    left: 10px;
+    top: 20px; 
+    width: 200px;
+    height: 200px;
+    z-index: -1;  
 }
 
-#beers {  
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    width: 100%;
-    border-collapse: collapse;
+div.contact {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 30px;
 }
 
-#beers td, #beers th {
-    border: 1px solid #ddd;
-    padding: 8px;
+header.mcdonalds {
+    padding: .5em;
+    color: yellow;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    font-size: 45px;
+}
+nav.top{
+    background: white;
+    height: 30px;
+    padding: 10px;
+    margin: 10px
+  
 }
 
-#beers tr:nth-child(even){background-color: #f2f2f2;}
+a.breakfast {
+    color: black;
+    padding: 20xp, 20xp;
+    display: inline-block;
+    left: 35%; 
+    position: relative;
+    font-size: 100;
+    
+}
 
-#beers tr:hover {background-color: #ddd;}
+
+a.salads {
+    color: black;
+    display: inline-block;
+    padding:  20xp, 20xp;
+    position: relative;
+    left: 45%;
+    font-size: 100;
+}
+
+
+a.burgers {
+    color: black;
+    display: inline-block;
+    padding:  20xp, 20xp;
+    position: relative;
+    font-size: 100;
+    left: 40% 
+}
+    
+.section {
+    background-color: lightgrey;
+    width: 500px;
+    border: 2px solid black;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+
+}
+
+.aside {
+    background-color: lightgrey;
+    width: 500px;
+    border: 2px solid black;
+    padding: 25px;
+    margin: 25px;
+    float: left; 
+    
+}
+
+.footer {
+    padding: .5em;
+    color: yellow;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
 
